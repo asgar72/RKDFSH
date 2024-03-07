@@ -5,16 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Module1.MainActivity">
-
+    tools:context=".Module2.ChatActivity">
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Hello World!"
-        android:textSize="50sp"
-        android:background="@color/orange"/>
-
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
@@ -28,5 +29,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

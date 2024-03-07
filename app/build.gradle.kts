@@ -50,5 +50,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.github.ismaeldivita:chip-navigation-bar:1.4.0") //Chip Navigation Bar
+    implementation("com.github.bumptech.glide:glide:4.16.0") //An image loading and caching library for Android focused on smooth scrolling
 
 }

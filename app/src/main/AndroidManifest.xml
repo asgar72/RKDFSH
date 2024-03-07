@@ -13,7 +13,13 @@
         android:theme="@style/Theme.RKDFSH"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Module3.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Module2.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Module1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
