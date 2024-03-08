@@ -3,12 +3,8 @@ package com.asgar72.rkdfsh.Module1
 import android.content.Intent
 import android.os.Bundle
 import android.view.Window
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.asgar72.rkdfsh.Module2.ChatActivity
 import com.asgar72.rkdfsh.R
 import com.asgar72.rkdfsh.databinding.ActivityMainBinding
 

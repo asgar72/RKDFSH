@@ -7,13 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".Module1.MainActivity">
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!"
-        android:textSize="50sp"
-        android:background="@color/orange"/>
+<FrameLayout
+    android:id="@+id/FramLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/bottomMenu"
@@ -25,7 +22,7 @@
         app:cnb_orientationMode="horizontal"
         app:cnb_radius="50dp"
         app:cnb_unselectedColor="#757575"
-        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintBottom_toBottomOf="@+id/FramLayout1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
