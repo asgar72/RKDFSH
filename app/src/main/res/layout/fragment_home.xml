@@ -28,12 +28,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:background="#304896"
                 android:gravity="center"
+                android:padding="5dp"
                 android:text="RKDF Student Helpdesk"
                 android:textColor="@color/white"
                 android:textSize="25sp"
-                android:padding="5dp"
-                android:background="#304896"
                 android:textStyle="bold" />
 
             <ImageView
@@ -46,15 +46,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp">
-            <ViewFlipper
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:id="@+id/flipper"/>
-        </LinearLayout>
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
 
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_text_align="CENTER" />
+
+        </LinearLayout>
 
 
         <LinearLayout

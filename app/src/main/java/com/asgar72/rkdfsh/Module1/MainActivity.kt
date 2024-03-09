@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.asgar72.rkdfsh.Module1.ui.HomeFragment
 import com.asgar72.rkdfsh.R
 import com.asgar72.rkdfsh.databinding.ActivityMainBinding
 
@@ -20,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             bottomMenu.setItemSelected(R.id.home)
             bottomMenu.setOnItemSelectedListener {
-                if (it == R.id.chat) {
-                    startActivity(Intent(this@MainActivity, ChatActivity::class.java))
+                if (it == R.id.home) {
+                    startActivity(Intent(this@MainActivity, HomeFragment::class.java))
                     finish()
                 }
             }
