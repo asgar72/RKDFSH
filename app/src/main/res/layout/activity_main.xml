@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".Module1.MainActivity">
 
-<FrameLayout
-    android:id="@+id/FramLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
-        android:id="@+id/bottomMenu"
+        android:id="@+id/bottomView"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/white"
@@ -22,7 +22,7 @@
         app:cnb_orientationMode="horizontal"
         app:cnb_radius="50dp"
         app:cnb_unselectedColor="#757575"
-        app:layout_constraintBottom_toBottomOf="@+id/FramLayout1"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

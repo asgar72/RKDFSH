@@ -10,17 +10,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/grey"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_margin="5dp"
                 android:src="@drawable/rkdf" />
 
@@ -37,10 +39,11 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_margin="5dp"
                 android:src="@drawable/rkdf" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -49,14 +52,18 @@
             android:layout_marginTop="10dp"
             android:orientation="vertical">
 
-            <com.denzcoskun.imageslider.ImageSlider
-                android:id="@+id/image_slider"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                app:iss_auto_cycle="true"
-                app:iss_delay="1000"
-                app:iss_period="1000"
-                app:iss_text_align="CENTER" />
+            <!--            <com.denzcoskun.imageslider.ImageSlider-->
+            <!--                android:id="@+id/image_slider"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="300dp"-->
+            <!--                app:iss_auto_cycle="true"-->
+            <!--                app:iss_delay="1000"-->
+            <!--                app:iss_period="1000"-->
+            <!--                app:iss_text_align="CENTER" />-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/f" />
 
         </LinearLayout>
 
