@@ -3,13 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
-    tools:context=".module3.ui.AboutFragment">
+    tools:context=".module1.ui.HelpDeskFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>

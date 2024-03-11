@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grey"
-    tools:context=".Module1.ui.HomeFragment">
+    tools:context=".module1.ui.HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,18 +52,18 @@
             android:layout_marginTop="10dp"
             android:orientation="vertical">
 
-            <!--            <com.denzcoskun.imageslider.ImageSlider-->
-            <!--                android:id="@+id/image_slider"-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="300dp"-->
-            <!--                app:iss_auto_cycle="true"-->
-            <!--                app:iss_delay="1000"-->
-            <!--                app:iss_period="1000"-->
-            <!--                app:iss_text_align="CENTER" />-->
-            <ImageView
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/f" />
+                app:iss_auto_cycle="true"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_text_align="CENTER" />
+            <!--            <ImageView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:src="@drawable/f" />-->
 
         </LinearLayout>
 
@@ -82,6 +82,7 @@
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/RkdfOfficial"
                     android:layout_width="135dp"
                     android:layout_height="135dp"
                     android:layout_margin="10dp"
@@ -123,6 +124,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/RkdfStudent"
                     android:layout_width="135dp"
                     android:layout_height="135dp"
                     android:layout_margin="10dp"
@@ -214,6 +216,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/RkdfHelpDesk"
                     android:layout_width="135dp"
                     android:layout_height="135dp"
                     android:layout_margin="10dp"

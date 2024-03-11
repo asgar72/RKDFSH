@@ -1,13 +1,13 @@
-package com.asgar72.rkdfsh.Module1
+package com.asgar72.rkdfsh.module1
 
 import android.os.Bundle
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.asgar72.rkdfsh.Module1.ui.HomeFragment
-import com.asgar72.rkdfsh.Module2.ui.ChatFragment
-import com.asgar72.rkdfsh.Module3.ui.AboutFragment
+import com.asgar72.rkdfsh.module1.ui.HomeFragment
+import com.asgar72.rkdfsh.module2.ui.ChatFragment
+import com.asgar72.rkdfsh.module3.ui.AboutFragment
 import com.asgar72.rkdfsh.R
 import com.asgar72.rkdfsh.databinding.ActivityMainBinding
 
