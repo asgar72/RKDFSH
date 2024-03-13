@@ -175,6 +175,7 @@
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/Syllabus_cardView"
                     android:layout_width="135dp"
                     android:layout_height="135dp"
                     android:layout_margin="10dp"
@@ -200,7 +201,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="90dp"
                                 android:padding="5dp"
-                                android:src="@drawable/rkdf" />
+                                android:src="@drawable/syl" />
                         </LinearLayout>
 
                         <TextView
@@ -209,7 +210,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
-                            android:text="RKDF OFFICIAL"
+                            android:text="Syllabus"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
                     </LinearLayout>

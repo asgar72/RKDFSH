@@ -50,6 +50,23 @@ class HomeFragment : Fragment() {
             fragmentTransaction.addToBackStack(null)
             fragmentTransaction.commit()
         }
+
+        binding.SyllabusCardView.setOnClickListener {
+            val fragmentTransaction = parentFragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, SyllabusFragment())
+            fragmentTransaction.addToBackStack(null)
+            fragmentTransaction.commit()
+        }
+
+        binding.RkdfHelpDesk.setOnClickListener {
+            val fragmentTransition = parentFragmentManager.beginTransaction()
+            fragmentTransition.replace(R.id.frameLayout,HelpDeskFragment())
+            fragmentTransition.addToBackStack(null)
+            fragmentTransition.commit()
+        }
+
+
+
         return binding.root
     }
 
