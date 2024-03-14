@@ -100,7 +100,11 @@ class HelpDeskFragment : Fragment() {
                 startActivity(intent)
             }
         }
-        
         return binding.root
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding=null
     }
 }

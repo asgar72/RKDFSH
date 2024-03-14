@@ -11,7 +11,6 @@ import android.webkit.WebViewClient
 import androidx.annotation.RequiresApi
 import com.asgar72.rkdfsh.databinding.FragmentSyllabusBinding
 
-
 class SyllabusFragment : Fragment() {
     private var _binding: FragmentSyllabusBinding? = null
     private val binding get() = _binding!!
@@ -37,5 +36,10 @@ class SyllabusFragment : Fragment() {
             settings.displayZoomControls=true
             loadUrl("https://www.rkdf.ac.in/Syllabus.php")
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding=null
     }
 }

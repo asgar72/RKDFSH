@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">RKDFSH</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Chat fragment</string>
+    <string name="about_rkdf">RKDF University, established in 2011 in Bhopal, it hosts 15,000+ students across 16 faculties, offering 99 courses and 42 unique programs. Emphasizing ethics and skill-based education, it champions extra-curricular activities and implements the National Education Policy 2020 to foster job creators.</string>
+    <string name="College_name">RKDF UNIVERSITY</string>
+    <string name="wtp">\@RkdfUniversity</string>
+    <string name="fb">\@RkdfUniversityFb</string>
+    <string name="ig">\@RkdfUniversityInsta</string>
+    <string name="x">\@RkdfUniversityX</string>
+    <string name="yt">\@RkdfUniversityYT</string>
 </resources>
