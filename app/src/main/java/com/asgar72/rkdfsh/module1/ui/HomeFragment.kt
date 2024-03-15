@@ -30,10 +30,11 @@ class HomeFragment : Fragment() {
 //        imageList.add(SlideModel("https://live.staticflickr.com/1980/29996141587_7886795726_b.jpg","Venom"))
         imageList.add(SlideModel(R.drawable.a, "Main Building"))
         imageList.add(SlideModel(R.drawable.b, "Play Ground"))
-        imageList.add(SlideModel(R.drawable.c))
+        imageList.add(SlideModel(R.drawable.c, "MCA Students"))
         imageList.add(SlideModel(R.drawable.d))
         imageList.add(SlideModel(R.drawable.e))
-        imageList.add(SlideModel(R.drawable.f, "MCA Students"))
+        imageList.add(SlideModel(R.drawable.f))
+
 
         binding.imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
@@ -64,8 +65,6 @@ class HomeFragment : Fragment() {
             fragmentTransition.addToBackStack(null)
             fragmentTransition.commit()
         }
-
-
 
         return binding.root
     }
