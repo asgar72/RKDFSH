@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.asgar72.rkdfsh.module1.ui.HomeFragment
-import com.asgar72.rkdfsh.module2.ui.ChatFragment
-import com.asgar72.rkdfsh.module3.ui.AboutFragment
+import com.asgar72.rkdfsh.module2.ChatFragment
+import com.asgar72.rkdfsh.module3.AboutFragment
 import com.asgar72.rkdfsh.R
 import com.asgar72.rkdfsh.databinding.ActivityMainBinding
 

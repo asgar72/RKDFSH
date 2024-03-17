@@ -1,4 +1,4 @@
-package com.asgar72.rkdfsh.module3.ui
+package com.asgar72.rkdfsh.module3
 
 import android.content.Intent
 import android.net.Uri
