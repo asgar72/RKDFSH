@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.asgar72.rkdfsh.module1.ui.HomeFragment
-import com.asgar72.rkdfsh.module2.ChatFragment
 import com.asgar72.rkdfsh.module3.AboutFragment
 import com.asgar72.rkdfsh.R
 import com.asgar72.rkdfsh.databinding.ActivityMainBinding
+import com.asgar72.rkdfsh.module2.ui.LoginFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         binding.bottomView.setOnItemSelectedListener { itemId ->
             when (itemId) {
                 R.id.home -> replaceWithFragment(HomeFragment())
-                R.id.chat -> replaceWithFragment(ChatFragment()) // Replace with appropriate fragment class
+                R.id.chat -> replaceWithFragment(LoginFragment()) // Replace with appropriate fragment class
                 R.id.about -> replaceWithFragment(AboutFragment()) // Replace with appropriate fragment class
                 else -> {
                 }
