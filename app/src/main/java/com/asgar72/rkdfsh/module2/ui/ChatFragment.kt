@@ -6,18 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.asgar72.rkdfsh.R
-import com.asgar72.rkdfsh.databinding.FragmentSignUpBinding
 
-class SignUpFragment : Fragment() {
-  private  var _binding : FragmentSignUpBinding ?= null
-    private val binding get() = _binding!!
+class ChatFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentSignUpBinding.inflate(inflater, container, false)
-
-        return binding.root
+        return inflater.inflate(R.layout.fragment_chat, container, false)
     }
 }
