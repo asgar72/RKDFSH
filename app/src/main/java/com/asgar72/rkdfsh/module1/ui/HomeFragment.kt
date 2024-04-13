@@ -1,5 +1,7 @@
 package com.asgar72.rkdfsh.module1.ui
 
+import StuLoginFragment
+import SyllabusFragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
