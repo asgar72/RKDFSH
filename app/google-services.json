@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963385730886",
+    "project_id": "rkdf-9ad7a",
+    "storage_bucket": "rkdf-9ad7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963385730886:android:8757c46a89177d6c0ca747",
+        "android_client_info": {
+          "package_name": "com.asgar72.rkdfsh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqsOi34zhpHXpqRvWsitEt9KLv3Nkisqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

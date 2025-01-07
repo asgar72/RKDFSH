@@ -23,3 +23,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "RKDFSH"
 include(":app")
+include(":app")
+ 

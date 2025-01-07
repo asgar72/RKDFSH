@@ -46,7 +46,7 @@ class StuLoginFragment : Fragment() {
             override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
                 super.onPageStarted(view, url, favicon)
                 progressBar.visibility = View.VISIBLE
-            }
+            }    
         }
 
         webView.webChromeClient = object : WebChromeClient() {

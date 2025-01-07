@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.googleGmsGoogleServices)
 }
 
 android {
@@ -47,6 +48,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.auth.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -55,4 +58,6 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0") //An image loading and caching library for Android focused on smooth scrolling
 
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2") //Image Slider
+    implementation("de.hdodenhof:circleimageview:3.1.0") //circle images
+
 }
