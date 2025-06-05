@@ -1,4 +1,8 @@
-#RKDF
+The RKDF Student Helpdesk (RKDFSH) application is developed to support and
+Enhance the student experience at RKDF University by providing an integrated platform
+for accessing essential university resources and communication tools. The app consists
+of three main sections: Home, Chats, and About, each designed to meet specific student needs.
+
 ## Screenshots
 <p align="center">
 
